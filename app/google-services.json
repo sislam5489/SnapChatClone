@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "986954701747",
+    "project_id": "snapchatclone-c32ab",
+    "storage_bucket": "snapchatclone-c32ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986954701747:android:c1d4b6d051fdfd41d089c6",
+        "android_client_info": {
+          "package_name": "edu.fordham.snapchatclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986954701747-a1udl6jlj88132h3lv4pkvch5tb9jtrh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.fordham.snapchatclone",
+            "certificate_hash": "10378938e7376367c150d7e4d151e187893f7a8d"
+          }
+        },
+        {
+          "client_id": "986954701747-9bsacfboiuu7cne6ik2pejfh60vs31h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7JoJQxLjYTIh0uFom3_iKaMt4co_RrtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986954701747-9bsacfboiuu7cne6ik2pejfh60vs31h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
