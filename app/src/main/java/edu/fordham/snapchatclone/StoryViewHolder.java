@@ -2,10 +2,12 @@ package edu.fordham.snapchatclone;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -21,7 +23,7 @@ public class StoryViewHolder extends RecyclerView.ViewHolder implements View.OnC
         super(itemView);
         itemView.setOnClickListener(this);
         mEmail = itemView.findViewById(R.id.email);
-        mLayout= itemView.findViewById(R.id.layout);
+        mLayout= itemView.findViewById(R.id.linearlayout);
     }
 
     @Override
@@ -29,6 +31,8 @@ public class StoryViewHolder extends RecyclerView.ViewHolder implements View.OnC
         Intent intent = new Intent(view.getContext(),DisplayImage.class);
         //Bundle b = new Bundle();
         intent.putExtra("userId",mEmail.getTag().toString());
+        Log.i("Tag",mLayout.getTag().toString());
+        Toast.makeText(view.getContext(),"Tag: " + mLayout.getTag().toString(),Toast.LENGTH_SHORT).show();
         intent.putExtra("chatOrStory",mLayout.getTag().toString());
 
         //b.putString("userId",mEmail.getTag().toString());

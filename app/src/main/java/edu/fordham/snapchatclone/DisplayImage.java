@@ -62,7 +62,7 @@ public class DisplayImage extends AppCompatActivity {
                 listenForStory();
         }
         //Log.d("ChatOrStory",userId);
-        listenForStory();
+       //listenForStory();
     }
 
     private void listenForChat() {

@@ -23,7 +23,7 @@ public class StoryObject{
         this.uid = u;
     }
 
-    public String getChatOrStory(){return uid;}
+    public String getChatOrStory(){return chatOrStory;}
 
     public void setUid(String u){
         this.uid = u;
